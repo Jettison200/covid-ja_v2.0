@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="/styles/style.css" />
-      <link rel="stylesheet" href="/dist/hamgurger.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap"
       rel="stylesheet"
@@ -33,14 +32,14 @@
         <p class="logo">Covid-Ja</p>
         <ul class="nav-container">
           <li class="nav-links"><a href="#">Home</a></li>
-          <li class="nav-links"><a href="#">About</a></li>
-          <li class="nav-links"><a href="#">Contact</a></li>
+          <li class="nav-links"><a href="about.html">About</a></li>
+          <li class="nav-links"><a href="contact.html">Contact</a></li>
         </ul>
-        <button class="hamburger hamburger--spin" type="button" id="hamburger">
-          <span class="hamburger-box">
-            <span class="hamburger-inner"></span>
-          </span>
-        </button>
+        <div class="lower-nav">
+          <a href="#">Home</a></li>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+        </div>
       </nav>
 
       <header class="container">
@@ -290,9 +289,12 @@
           </div>
         </div>
       </section>
+      <div class="brogad">
+      
+      </div>
       <footer>
         <p>&copy; Covid-Ja 2020</p>
-        <p class="v-count">Visitor count: 15, 694 and counting</p>
+        <p class="v-count">Visitor count: 6, 472 visitors and counting</p>
       </footer>
     </div>
 
@@ -306,7 +308,8 @@
         disableVideo: /iPad|iPhone|iPod|Android/,
       });
     </script>
-   
-    <script type="module" src="/index.js"></script>
+      <script src="index.js"></script>
+       <script type="module" src="jump.js"></script>
+  
   </body>
 </html>

@@ -129,12 +129,30 @@ nav {
   transform: scaleX(1);
 }
 
-.hamburger {
+.social-media{
+  display: flex;
+
+}
+
+.social-media-icon{
+  width: 50px;
+  margin-right: 30px;
+}
+
+.lower-nav {
   display: none;
+}
+
+.lower-nav a {
+  text-decoration: none;
+  position: relative;
+  color: var(--dark-blue);
+  font-size: 18px;
+  margin-bottom: 30px;
 }
 header {
   background-color: var(--green);
-  height: 100vh;
+  min-height: 100vh;
   font-size: var(--roboto);
   align-content: center;
   padding: var(--section-padding);
@@ -316,6 +334,15 @@ section {
   margin-top: -10px;
 }
 
+.brogad{
+  background-image: url(/image/brogad-poster.jpg);
+  background-position: center;
+  background-size: contain;
+  background-attachment: fixed;
+  height: 80vh;
+
+}
+
 
 
 .prevention {
@@ -366,8 +393,15 @@ footer p {
   .nav-container {
     display: none;
   }
-  .hamburger {
-    display: block;
+  nav{
+    flex-direction: column;
+    height: 90px;
+  }
+  .lower-nav {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    justify-items: center;
   }
   header {
     padding-top: 150px;
