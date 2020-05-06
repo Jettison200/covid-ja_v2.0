@@ -246,7 +246,7 @@ section {
 .img-2 {
   background-image: url(/image/covidmap.jpg);
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   height: 80vh;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -340,6 +340,10 @@ footer p {
   }
   .img {
     background-size: cover;
+  }
+  .img-2{
+    background-size: cover;
+    background-color: var(--blue);
   }
 }
 
