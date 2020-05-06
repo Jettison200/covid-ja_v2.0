@@ -5,7 +5,7 @@ let cta = document.getElementById("cta");
 cta.addEventListener("click", () => {
   jump(".history", {
     duration: 550,
-    offset: -70
+    offset: -70,
   });
 });
 
@@ -18,12 +18,10 @@ function remove() {
 
 function myFunction(x) {
   if (x.matches) {
-    remove()
+    remove();
   } else {
-
   }
 }
-var x = window.matchMedia("(max-width: 700px)")
-myFunction(x) // Call listener function at run time
-x.addListener(myFunction) // Attach listener function on state changes
-
+var x = window.matchMedia("(max-width: 700px)");
+myFunction(x); // Call listener function at run time
+x.addListener(myFunction); // Attach listener function on state changes
