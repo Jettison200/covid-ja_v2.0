@@ -342,7 +342,7 @@ footer p {
     background-size: cover;
   }
   .img-2{
-    background-size: cover;
+    background-size: contain;
     background-color: var(--blue);
   }
 }
