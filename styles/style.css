@@ -338,11 +338,8 @@ footer p {
     padding-top: 100px;
     padding-bottom: 0;
   }
-  .img-2 {
-    background-size: contain;
-  }
   .jarallax {
-    background-size: contain;
+    background-size: cover;
   }
 }
 
