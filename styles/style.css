@@ -89,6 +89,8 @@ nav {
   margin-left: 100px;
   font-size: var(--logo-text);
   color: var(--dark-blue);
+  cursor: context-menu;
+  user-select: none;
 }
 .nav-container {
   display: flex;
