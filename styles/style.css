@@ -14,6 +14,29 @@ html[data-direction="down"] nav{
 }
 */
 
+.loading-screen{
+  background-color: var(--green);
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  z-index: 5;
+  display: grid;
+  justify-items: center;
+  align-content: center;
+}
+.loading{
+  color: white;
+  z-index: 6;
+  font-size: 40px;
+
+
+}
+.l-animation{
+  max-width: 600px;
+}
+.loader{
+  display: flex;
+}
 nav {
   display: flex;
   justify-content: space-between;

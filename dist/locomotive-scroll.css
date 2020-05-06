@@ -12,12 +12,11 @@ html.has-scroll-dragging {
   overflow: hidden; }
 
 .has-scroll-smooth [data-scroll-container] {
-  min-height: 100vh; }
+  min-height: 100%; }
 
 .c-scrollbar {
   position: absolute;
   right: 0;
-  z-index: 6;
   top: 0;
   width: 11px;
   height: 100vh;
