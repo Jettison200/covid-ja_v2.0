@@ -63,15 +63,6 @@ cta.addEventListener("click", () => {
 
 let tl = gsap.timeline();
 
-tl.to(".loading",{
-  duration: .3,
- color: "rgb(255, 217, 26)",
- y:10,
- ease: Power1.easeInOut,
- stagger: .1,
- repeat: -1,
- });
-
  
 window.addEventListener("load", () => {
   // Removes an element from the document
@@ -79,7 +70,8 @@ window.addEventListener("load", () => {
     duration: 0.5,
     opacity: 0,
   });
-  tl.to(".loading", {
+  tl.to(".loading-screen", {
+   display: 'none',
     onComplete: function () {
       tl.kill();
     },
