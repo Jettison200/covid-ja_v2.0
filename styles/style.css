@@ -246,7 +246,7 @@ section {
 .img-2 {
   background-image: url(/image/covidmap.jpg);
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   height: 80vh;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -338,7 +338,7 @@ footer p {
     padding-top: 100px;
     padding-bottom: 0;
   }
-  .jarallax {
+  .img {
     background-size: cover;
   }
 }
