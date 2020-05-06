@@ -141,6 +141,7 @@ nav {
 
 .lower-nav {
   display: none;
+
 }
 
 .lower-nav a {
@@ -148,7 +149,7 @@ nav {
   position: relative;
   color: var(--dark-blue);
   font-size: 18px;
-  margin-bottom: 30px;
+ margin-bottom: 20px;
 }
 header {
   background-color: var(--green);
@@ -395,8 +396,9 @@ footer p {
   }
   nav{
     flex-direction: column;
-    height: 90px;
-    position: initial;
+    height: 100px;
+    position: relative;
+    
   }
   .lower-nav {
     display: grid;
