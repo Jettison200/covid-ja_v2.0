@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="/styles/style.css" />
     <link rel="stylesheet" href="/dist/locomotive-scroll.css" />
     <link rel="stylesheet" href="/dist/jarallax.css" />
-    <link rel="stylesheet" href="/dist/hamgurger.css">
+    <link rel="stylesheet" href="/dist/hamgurger.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap"
       rel="stylesheet"
@@ -22,15 +22,11 @@
           <li class="nav-links"><a href="#">About</a></li>
           <li class="nav-links"><a href="#">Contact</a></li>
         </ul>
-        <button
-        class="hamburger hamburger--spin"
-        type="button"
-        id="hamburger"
-      >
-        <span class="hamburger-box ">
-          <span class="hamburger-inner"></span>
-        </span>
-      </button>
+        <button class="hamburger hamburger--spin" type="button" id="hamburger">
+          <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+          </span>
+        </button>
       </nav>
 
       <header class="container">
@@ -117,7 +113,7 @@
       </section>
 
       <div class="img jarallax" data-jarallax data-speed="-0.2"></div>
-      
+
       <section class="response">
         <h3 class="heading">Coronavirus And Jamaica</h3>
         <div class="response-container container">
@@ -139,7 +135,10 @@
                 have been suspended.
               </li>
               <li>Airports and seaports have been closed.</li>
-              <li>Some BPO have been closed. (Finally, but we need all of them locked though.)</li>
+              <li>
+                Some BPO have been closed. (Finally, but we need all of them
+                locked though.)
+              </li>
               <li>
                 A hotline has been set up for persons who suspect that they have
                 contracted the virus.<br />
@@ -159,7 +158,7 @@
               <li>Other behind the scene work.</li>
             </ol>
             <p class="info-heading">
-             Keep Safe!
+              Keep Safe!
             </p>
           </div>
           <div class="animation">
@@ -175,18 +174,38 @@
       </section>
 
       <section class="animation-container">
-
-         <div class="animation-text"> <h4 class="heading bg-animation-text">Stay at home on your couch!</h4></div>
-        <div  class="background-animation">
-        <lottie-player id="a-1" src="/image/animation/home.json"  background="transparent"  speed="1.5"  loop  autoplay></lottie-player>
-        <lottie-player id="a-2" src="/image/animation/home.json"  background="transparent"  speed="1.5"  loop  autoplay></lottie-player>
-        <lottie-player src="/image/animation/home.json"  background="transparent"  speed="1.5"  loop  autoplay></lottie-player>
-      </div>
- 
+        <div class="animation-text">
+          <h4 class="heading bg-animation-text">Stay at home on your couch!</h4>
+        </div>
+        <div class="background-animation">
+          <lottie-player
+            id="a-1"
+            src="/image/animation/home.json"
+            background="transparent"
+            speed="1.5"
+            loop
+            autoplay
+          ></lottie-player>
+          <lottie-player
+            id="a-2"
+            src="/image/animation/home.json"
+            background="transparent"
+            speed="1.5"
+            loop
+            autoplay
+          ></lottie-player>
+          <lottie-player
+            src="/image/animation/home.json"
+            background="transparent"
+            speed="1.5"
+            loop
+            autoplay
+          ></lottie-player>
+        </div>
       </section>
 
       <div class="img-2 jarallax" data-jarallax data-speed="-0.2"></div>
-      
+
       <section class="prevention">
         <h2 class="heading">Can We Prevent The Spread Of The Coronavirus?</h2>
         <div class="history-container container">
@@ -201,12 +220,11 @@
           </div>
 
           <div class="info-container">
-            <p class="info-heading"> Yes! We can by practicing good hygiene.</p>
+            <p class="info-heading">Yes! We can by practicing good hygiene.</p>
             <p class="info">
               How do you prevent Coronavirus?
             </p>
 
-           
             <ol class="info">
               <li>
                 Wash your hands with soap and water often – do this for at least
@@ -243,26 +261,27 @@
               </li>
             </ol>
             <p class="info">
-              You can also visit the ministry's boring website at <a href="https://www.moh.gov.jm/" target="_blank">WWW.MOH.GOV.JM</a>. <br>Click it to go.
+              You can also visit the ministry's boring website at
+              <a href="https://www.moh.gov.jm/" target="_blank"
+                >WWW.MOH.GOV.JM</a
+              >. <br />Click it to go.
             </p>
             <p class="info-heading">
               Stay Safe, This will past. 🙂
-             
             </p>
             <p class="info">
-              Everything will be good in the end, If it's not good then it's not the end! 🙂
+              Everything will be good in the end, If it's not good then it's not
+              the end! 🙂
             </p>
           </div>
         </div>
       </section>
       <footer>
-      
-        <p>	&copy; Covid-Ja 2020</p>
-  
+        <p>&copy; Covid-Ja 2020</p>
       </footer>
     </div>
 
-<script src="/index.js"></script>
+    <script src="/index.js"></script>
     <script src="/dist/jarallax.min.js"></script>
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
     <script src="dist/locomotive-scroll.min.js"></script>
@@ -284,10 +303,10 @@
         });
       })();
       */
-      jarallax(document.querySelectorAll('.jarallax'), {
-  disableParallax: /iPad|iPhone|iPod|Android/,
-  disableVideo: /iPad|iPhone|iPod|Android/
-});
+      jarallax(document.querySelectorAll(".jarallax"), {
+        disableParallax: /iPad|iPhone|iPod|Android/,
+        disableVideo: /iPad|iPhone|iPod|Android/,
+      });
     </script>
   </body>
 </html>
