@@ -1,0 +1,32 @@
+:root {
+  /** Colors */
+  --green: rgb(13, 165, 116);
+  --yellow: rgb(255, 217, 26);
+  --blue: rgb(8, 51, 89);
+  --dark-blue: rgb(0, 31, 63);
+
+  /** Font Size */
+  --logo-text: 40px;
+  --big-text: 35px;
+  --heading-text: 25px;
+  --text: 16px;
+
+  /** Font Family */
+  --monster: "Montserrat", sans-serif;
+  --roboto: "Roboto", sans-serif;
+
+  /** Padding */
+  --section-padding: 70px 100px;
+
+  /**Grid*/
+
+  --z: repeat(2, 1fr);
+}
+
+@media screen and (max-width: 1000px) {
+  :root {
+     --section-padding: 70px;
+     
+  --z: repeat(2, auto);
+  }
+}
