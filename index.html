@@ -14,7 +14,7 @@
   </head>
   <body>
     <div data-scroll-container>
-      <nav id="y">
+      <nav>
         <p class="logo">Covid-Ja</p>
         <ul class="nav-container">
           <li class="nav-links"><a href="#">Home</a></li>
@@ -28,7 +28,7 @@
         </button>
       </nav>
 
-      <header class="container">
+      <header class="container"  data-scroll-section>
         <div class="header-info">
           <h1>How Are You Coping With Jamaica's Situation?</h1>
           <p class="heading-text">
@@ -50,7 +50,7 @@
         </div>
       </header>
 
-      <section class="history">
+      <section class="history" data-scroll-section>
         <h2 class="heading">What Exactly Is The Coronavirus?</h2>
         <div class="history-container container">
           <div class="animation">
@@ -110,10 +110,10 @@
           </div>
         </div>
       </section>
-
+<div  data-scroll-section>
       <div class="img jarallax" data-jarallax data-speed="-0.2"></div>
-
-      <section class="response">
+    </div>
+      <section class="response"  data-scroll-section>
         <h3 class="heading">Coronavirus And Jamaica</h3>
         <div class="response-container container">
           <div class="info-container">
@@ -172,7 +172,7 @@
         </div>
       </section>
 
-      <section class="animation-container">
+      <section class="animation-container"  data-scroll-section>
         <div class="animation-text">
           <h4 class="heading bg-animation-text">Stay at home on your couch!</h4>
         </div>
@@ -203,9 +203,10 @@
         </div>
       </section>
 
-      <div class="img-2 jarallax" data-jarallax data-speed="-0.2"></div>
+      <div data-scroll-section class="img-2 jarallax" data-jarallax data-speed="-0.2"></div>
 
-      <section class="prevention">
+
+      <section class="prevention" data-scroll-section >
         <h2 class="heading">Can We Prevent The Spread Of The Coronavirus?</h2>
         <div class="history-container container">
           <div class="animation">
@@ -275,8 +276,10 @@
           </div>
         </div>
       </section>
-      <footer>
+
+      <footer data-scroll-section>
         <p>&copy; Covid-Ja 2020</p>
+        <p class="v-count">Visitor count: 15, 694 and counting</p>
       </footer>
     </div>
 
@@ -285,7 +288,7 @@
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
     <script src="dist/locomotive-scroll.min.js"></script>
     <script>
-      /*
+      
       (function () {
         var scroll = new LocomotiveScroll({
           el: document.querySelector("[data-scroll-container]"),
@@ -301,7 +304,7 @@
           );
         });
       })();
-      */
+      
       jarallax(document.querySelectorAll(".jarallax"), {
         disableParallax: /iPad|iPhone|iPod|Android/,
         disableVideo: /iPad|iPhone|iPod|Android/,

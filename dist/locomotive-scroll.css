@@ -17,6 +17,7 @@ html.has-scroll-dragging {
 .c-scrollbar {
   position: absolute;
   right: 0;
+  z-index: 6;
   top: 0;
   width: 11px;
   height: 100vh;

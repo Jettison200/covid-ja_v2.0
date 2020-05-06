@@ -255,27 +255,7 @@ section {
   margin-top: -10px;
 }
 
-iframe {
-  width: 100%;
-  height: 100vh;
-}
 
-#bottom-overlay p {
-  color: rgb(226, 226, 226);
-}
-
-#bottom-overlay {
-  width: 100%;
-  height: 50px;
-  background-color: var(--dark-blue);
-  position: relative;
-  padding: 5px 0px;
-  bottom: 55px;
-  margin-bottom: -55px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
 .prevention {
   background-color: var(--yellow);
@@ -283,6 +263,7 @@ iframe {
 
 footer {
   height: 70px;
+  padding: 5px;
   background-color: var(--dark-blue);
   display: grid;
   justify-items: center;
@@ -292,6 +273,10 @@ footer {
 
 footer p {
   color: rgb(255, 255, 255);
+}
+
+.v-count{
+  margin-top: 5px;
 }
 
 @media screen and (max-width: 1000px) {
