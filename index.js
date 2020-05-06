@@ -69,9 +69,7 @@ window.addEventListener("load", () => {
   tl.to(".loading-screen", {
     duration: 0.5,
     opacity: 0,
-  });
-  tl.to(".loading-screen", {
-   display: 'none',
+    display: 'none',  
     onComplete: function () {
       tl.kill();
     },
