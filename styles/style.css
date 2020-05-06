@@ -396,6 +396,7 @@ footer p {
   nav{
     flex-direction: column;
     height: 90px;
+    position: initial;
   }
   .lower-nav {
     display: grid;
