@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="/styles/style.css" />
     <link rel="stylesheet" href="/dist/locomotive-scroll.css" />
     <link rel="stylesheet" href="/dist/jarallax.css" />
+    <link rel="stylesheet" href="/dist/hamgurger.css">
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap"
       rel="stylesheet"
@@ -14,13 +15,22 @@
   </head>
   <body>
     <div data-scroll-container>
-      <nav>
+      <nav id="y">
         <p class="logo">Covid-Ja</p>
         <ul class="nav-container">
           <li class="nav-links"><a href="#">Home</a></li>
           <li class="nav-links"><a href="#">About</a></li>
           <li class="nav-links"><a href="#">Contact</a></li>
         </ul>
+        <button
+        class="hamburger hamburger--spin"
+        type="button"
+        id="hamburger"
+      >
+        <span class="hamburger-box ">
+          <span class="hamburger-inner"></span>
+        </span>
+      </button>
       </nav>
 
       <header class="container">
@@ -168,9 +178,9 @@
 
          <div class="animation-text"> <h4 class="heading bg-animation-text">Stay at home on your couch!</h4></div>
         <div  class="background-animation">
-        <lottie-player class="" src="/image/animation/home.json"  background="transparent"  speed="1.5"  loop  autoplay></lottie-player>
-        <lottie-player class="" src="/image/animation/home.json"  background="transparent"  speed="1.5"  loop  autoplay></lottie-player>
-        <lottie-player class="" src="/image/animation/home.json"  background="transparent"  speed="1.5"  loop  autoplay></lottie-player>
+        <lottie-player id="a-1" src="/image/animation/home.json"  background="transparent"  speed="1.5"  loop  autoplay></lottie-player>
+        <lottie-player id="a-2" src="/image/animation/home.json"  background="transparent"  speed="1.5"  loop  autoplay></lottie-player>
+        <lottie-player src="/image/animation/home.json"  background="transparent"  speed="1.5"  loop  autoplay></lottie-player>
       </div>
  
       </section>
@@ -246,13 +256,13 @@
         </div>
       </section>
       <footer>
-        <p>Check the other pages brogad, don't leave yet.</p>
-        <p>	&copy; Covid-Ja</p>
-        <p>Stay safe my G.</p>
+      
+        <p>	&copy; Covid-Ja 2020</p>
+  
       </footer>
     </div>
 
-    <script src="index.js"></script>
+<script src="/index.js"></script>
     <script src="/dist/jarallax.min.js"></script>
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
     <script src="dist/locomotive-scroll.min.js"></script>
@@ -274,6 +284,7 @@
         });
       })();
       */
+     
     </script>
   </body>
 </html>

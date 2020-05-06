@@ -30,3 +30,17 @@
   --z: repeat(2, auto);
   }
 }
+@media screen and (max-width: 760px){
+     :root {
+          --section-padding: 30px;
+     }       
+}
+
+@media screen and (max-width: 576px) {
+     :root{
+          --logo-text: 35px;
+          --big-text: 25px;
+          --heading-text: 20px;
+          --text: 16px;
+     }
+}
