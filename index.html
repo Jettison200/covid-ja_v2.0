@@ -150,8 +150,7 @@
               </li>
               <li>Airports and seaports have been closed.</li>
               <li>
-                Some BPO have been closed. (Finally, but we need all of them
-                locked though.)
+                Some BPO have been closed. 
               </li>
               <li>
                 A hotline has been set up for persons who suspect that they have
@@ -275,7 +274,7 @@
               </li>
             </ol>
             <p class="info">
-              You can also visit the ministry's boring website at
+              You can also visit the Health Ministry's website at
               <a href="https://www.moh.gov.jm/" target="_blank"
                 >WWW.MOH.GOV.JM</a
               >. <br />Click it to go.
@@ -284,8 +283,8 @@
               Stay Safe, This will past. 🙂
             </p>
             <p class="info">
-              Everything will be good in the end, If it's not good then it's not
-              the end! 🙂
+              "Everything will be good in the end, If it's not good then it's not
+              the end! 🙂" - John Lennon
             </p>
           </div>
         </div>
@@ -308,9 +307,39 @@
         disableParallax: /iPad|iPhone|iPod|Android/,
         disableVideo: /iPad|iPhone|iPod|Android/,
       });
+      
+function remove() {
+  var myobj = document.getElementById("a-1");
+  var myobj2 = document.getElementById("a-2");
+  myobj.remove();
+  myobj2.remove();
+}
+
+function myFunction(x) {
+  if (x.matches) {
+    remove();
+  } else {
+  }
+}
+var x = window.matchMedia("(max-width: 700px)");
+myFunction(x); // Call listener function at run time
+x.addListener(myFunction); // Attach listener function on state changes
+
     </script>
       <script src="index.js"></script>
-       <script type="module" src="jump.js"></script>
+       <script type="module" >
+         import jump from "/node_modules/jump.js/dist/jump.module.js";
+//*Jump Js
+let cta = document.getElementById("cta");
+
+cta.addEventListener("click", () => {
+  jump(".history", {
+    duration: 550,
+    offset: -70,
+  });
+});
+
+       </script>
   
   </body>
 </html>
