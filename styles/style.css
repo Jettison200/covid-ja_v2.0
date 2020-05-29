@@ -298,7 +298,10 @@ section {
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: 1fr;
+  background-color: var(--blue);
 }
+
+/*
 .animation-text {
   grid-row-start: 1;
   grid-column-start: 1;
@@ -308,10 +311,12 @@ section {
   box-shadow: 0px 0px 28px 0px rgba(0, 0, 0, 0.336);
 }
 .bg-animation-text {
-  color: white;
+  color: red;
   margin: 0;
   padding: 30px;
 }
+ */
+
 .background-animation {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -321,15 +326,15 @@ section {
 }
 
 .img-2 {
-  background-image: url(/image/covidmap.jpg);
-  background-position: center;
-  background-size: cover;
-  height: 80vh;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  position: relative;
-  bottom: 0px;
-  margin-top: -10px;
+  display: block;
+  margin: 0 auto;
+ width: 80%;
+ height: auto;
+}
+
+.img-container{
+background-color: var(--green);
+padding: 30px 0;
 }
 
 .brogad {
@@ -410,6 +415,10 @@ footer p {
     display: grid;
     grid-template-columns: 1fr;
   }
+  .img-2 {
+   width: 100%;
+
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -420,10 +429,10 @@ footer p {
   .img {
     background-size: cover;
   }
-  .img-2 {
-    background-size: contain;
-    background-color: var(--green);
-  }
+  .img-container{
+    padding: 10px 0;
+    margin: 0;
+    }
 }
 
 @media screen and (max-width: 375px) {
