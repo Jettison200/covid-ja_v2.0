@@ -1,5 +1,3 @@
-@import url("/styles/root.css"); /* Using a url */
-
 * {
   padding: 0;
   margin: 0;
@@ -8,11 +6,55 @@
   line-height: 1.5;
 }
 
-/*
-html[data-direction="down"] nav{
-    transform: translateY(-70px);
+/**Root*/
+:root {
+  /** Colors */
+  --green: rgb(13, 165, 116);
+  --yellow: rgb(255, 217, 26);
+  --blue: rgb(8, 51, 89);
+  --dark-blue: rgb(0, 31, 63);
+
+  /** Font Size */
+  --logo-text: 40px;
+  --big-text: 35px;
+  --heading-text: 25px;
+  --text: 16px;
+
+  /** Font Family */
+  --monster: "Montserrat", sans-serif;
+  --roboto: "Roboto", sans-serif;
+
+  /** Padding */
+  --section-padding: 70px 100px;
+
+  /**Grid*/
+
+  --z: repeat(2, 1fr);
 }
-*/
+
+@media screen and (max-width: 1000px) {
+  :root {
+     --section-padding: 70px;
+     
+  --z: repeat(2, auto);
+  }
+}
+@media screen and (max-width: 760px){
+     :root {
+          --section-padding: 30px;
+     }       
+}
+
+@media screen and (max-width: 576px) {
+     :root{
+          --logo-text: 35px;
+          --big-text: 25px;
+          --heading-text: 20px;
+          --text: 16px;
+     }
+}
+
+/**End of root styles*/
 
 .loading-screen {
   background-color: var(--green);
