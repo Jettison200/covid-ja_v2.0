@@ -173,6 +173,17 @@ nav {
 
 .social-media {
   display: flex;
+flex-direction: column;  
+}
+
+.name{
+  font-size: 30px;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.sm-2{
+  margin-top: 30px;
 }
 
 .social-media-icon {
@@ -378,6 +389,8 @@ section {
 background-color: var(--green);
 padding: 30px 0;
 }
+
+
 
 .brogad {
   background-image: url(/image/brogad-poster.jpg);
