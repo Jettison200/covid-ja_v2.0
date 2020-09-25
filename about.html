@@ -1,86 +1,85 @@
 <!DOCTYPE html>
 <html lang="en" class="is-smooth-scroll-compatible is-loading">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About | Covid-JA</title>
-    <link rel="shortcut icon" type="image/ico" href="image/virus.svg" />
-    <link rel="stylesheet" href="/styles/style.css" />
-    <link rel="stylesheet" href="/dist/hamgurger.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <div class="loading-screen">
-      <div class="l-animation">
-        <span class="loading-bar"></span>
-        <span class="loading-bar"></span>
-        <span class="loading-bar"></span>
-        <span class="loading-bar"></span>
-      </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About | Covid-JA</title>
+  <link rel="shortcut icon" type="image/ico" href="image/virus.svg" />
+  <link rel="stylesheet" href="/styles/style.css" />
+  <link rel="stylesheet" href="/dist/hamgurger.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="loading-screen">
+    <div class="l-animation">
+      <span class="loading-bar"></span>
+      <span class="loading-bar"></span>
+      <span class="loading-bar"></span>
+      <span class="loading-bar"></span>
+    </div>
+  </div>
+
+
+  <nav>
+    <p class="logo">Covid-Ja</p>
+    <ul class="nav-container">
+      <li class="nav-links"><a href="index.html">Home</a></li>
+      <li class="nav-links"><a href="#">About</a></li>
+      <li class="nav-links"><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="lower-nav">
+      <a href="index.html">Home</a></li>
+      <a href="#">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </nav>
+
+  <header class="container">
+    <div class="header-animation">
+      <lottie-player src="/image/animation/Loader.json" background="transparent" speed="1" loop autoplay>
+      </lottie-player>
     </div>
 
-  
-    <nav>
-      <p class="logo">Covid-Ja</p>
-      <ul class="nav-container">
-        <li class="nav-links"><a href="index.html">Home</a></li>
-        <li class="nav-links"><a href="#">About</a></li>
-        <li class="nav-links"><a href="contact.html">Contact</a></li>
-      </ul>
-      <div class="lower-nav">
-        <a href="index.html">Home</a></li>
-        <a href="#">About</a>
-        <a href="contact.html">Contact</a>
-      </div>
-    </nav>
+    <div class="header-info">
+      <h1>About Covid-Ja</h1>
+      <p class="heading-text">
+        This website was developed by the Web Developers Jason Clarke and Suniel England at the begining of this
+        crisis. This is version 3.0 with a new interactive coronavirus tracker, a revised color scheme and new
+        animations.
 
-    <header class="container">
-      <div class="header-animation">
-        <lottie-player
-          src="/image/animation/Loader.json"
-          background="transparent"
-          speed="1"
-          loop
-          autoplay
-        ></lottie-player>
-      </div>
-      
-      <div class="header-info">
-        <h1>About Covid-Ja</h1>
-        <p class="heading-text">
-          This website was developed by the Web Developers Jason Clarke and Suniel England at the begining of this
-          crisis. This is version 3.0 with a new interactive coronavirus tracker, a revised color scheme and new animations. 
-          
-          <br><br>
-          The website originally started out as a small side project but quickly grew to facilitate the growing need for accurate information
-           in Jamaica.
-           <br><br>
-          So far this website has been accessed by people in Jamaica, Pakistan, Germany, Isreal, USA, Greenland, Trinidad,
-          Barbados, Antigua, Turkey, UK, Montserrat, Poland, Sweden, India etc. Were they Jamaicans? We have no idea.
-        </p>
-      </div>
+        <br><br>
+        The website originally started out as a small side project but quickly grew to facilitate the growing need for
+        accurate information
+        in Jamaica.
+        <br><br>
+        So far this website has been accessed by people in Jamaica, Pakistan, Germany, Isreal, USA, Greenland, Trinidad,
+        Barbados, Antigua, Turkey, UK, Montserrat, Poland, Sweden, India etc. Were they Jamaicans? We have no idea.
+      </p>
+    </div>
 
-  
-    </header>
 
-    <footer>
-      <p>&copy; Covid-Ja 2020</p>
-    
-    </footer>
+  </header>
 
-    <script src="/dist/jarallax.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
-    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-    <script>
-      jarallax(document.querySelectorAll(".jarallax"), {
-        disableParallax: /iPad|iPhone|iPod|Android/,
-        disableVideo: /iPad|iPhone|iPod|Android/,
-      });
-    </script>
+  <footer>
+    <p>&copy; Covid-Ja 2020</p>
+    <p class="bigup">Designed and Developed by <a href="https://devjasonclarke.tk/" target="_blank" rel=”noopener
+        noreferrer”>Jason Clarke</a> and <a href="https://www.instagram.com/_.english.man._/" target="_blank"
+        rel=”noopener noreferrer”>Suniel England</a></p>
+  </footer>
 
-    <script src="/index.js"></script>
-  </body>
+  <script src="/dist/jarallax.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  <script>
+    jarallax(document.querySelectorAll(".jarallax"), {
+      disableParallax: /iPad|iPhone|iPod|Android/,
+      disableVideo: /iPad|iPhone|iPod|Android/,
+    });
+  </script>
+
+  <script src="/index.js"></script>
+</body>
+
 </html>

@@ -189,6 +189,10 @@ flex-direction: column;
 .social-media-icon {
   width: 50px;
   margin-right: 30px;
+  transition: all .3s ease-in-out;
+}
+.social-media-icon:hover{
+transform: scale(1.2);
 }
 
 .lower-nav {
@@ -405,21 +409,34 @@ padding: 30px 0;
 }
 
 footer {
-  height: 70px;
+  height: 90px;
   padding: 5px;
   background-color: var(--dark-blue);
   display: grid;
   justify-items: center;
   align-content: center;
   grid-template-columns: 1fr;
+ 
 }
 
 footer p {
   color: rgb(255, 255, 255);
+
 }
 
 .v-count {
   margin-top: 5px;
+}
+
+.bigup{
+margin-top: 15px;
+text-align: center;
+}
+
+.bigup>a{
+color: var(--green);
+text-decoration: none;
+
 }
 
 @media screen and (max-width: 1000px) {
